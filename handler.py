@@ -1,9 +1,8 @@
 import json
-from spell_checker import spell_check_sentence
 
 def spell_check(event, context):
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": "Go Treble!",
         "input": event
     }
 
@@ -13,8 +12,6 @@ def spell_check(event, context):
     }
 
     return response
-    
-    
 
 
 
